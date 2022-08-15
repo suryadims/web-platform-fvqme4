@@ -1,0 +1,143 @@
+* {
+  box-sizing: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida hand', cursive;
+  background-color: rgb(128, 128, 128);
+}
+
+.navbar {
+  height: 60px;
+  background-color: #6b6b6b;
+  position: relative;
+}
+
+.navbar .brand {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.navbar .menu {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.navbar .menu a {
+  font-size: 15px;
+  color: #e5e4e2;
+  text-decoration: none;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+main {
+  padding: 40px;
+}
+
+.hero {
+  height: 500px;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero form {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: rgba(245, 245, 245, 0.5);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.form_group {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form_group label {
+  color: black;
+  font-size: 15px;
+}
+
+.form_group div {
+  margin-top: 10px;
+}
+
+.form_group div input {
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.form_group div textarea {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.form_group button {
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #6b6b6bce;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: inherit;
+}
+
+.section {
+  margin: 65px;
+}
+
+.quotes_card {
+  height: 500px;
+  position: relative;
+  margin: 20px 0;
+}
+
+.quotes_card p {
+  position: absolute;
+  font-size: 25px;
+}
+
+.quotes_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.q1 p {
+  top: 75%;
+  left: 5%;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 3px 3px #000000;
+}
+
+.q2 p {
+  color: #e5e4e2;
+  text-shadow: 2px 2px 2px #6b6b6b;
+  left: 5%;
+}
+
+.q3 p {
+  color: #ffffff;
+  text-shadow: 5px 5px 5px #000000;
+  left: 25%;
+  bottom: 5%;
+}
+
